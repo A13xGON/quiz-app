@@ -103,9 +103,9 @@ quit_test.onclick = () => {
 restart_test.onclick = () => {
   result_container.classList.remove("activeResultBox");
   quiz_cont.classList.add("quizStart");
-  let que_count = 0;
-  let que_number = 1;
-  let quizScore = 0;
+  que_count = 0;
+  que_number = 1;
+  quizScore = 0;
   getQuestions(que_count);
   footer_counter(que_number);
   clearInterval(seconds);
@@ -166,11 +166,11 @@ function answerSelected(answer) {
     console.log("Correct Answers: " + quizScore);
     answer.classList.add("correct");
     console.log("Answer is correct");
-    remainingTime += 5;
+    remainingTime += 20;
   } else {
     console.log("Answer is wrong.");
     answer.classList.add("wrong");
-    remainingTime -= 10;
+    remainingTime -= 35;
 
     for (let i = 0; i < allAnswers; i++) {
       if (options.children[i].textContent == correctPick) {
