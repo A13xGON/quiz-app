@@ -316,6 +316,17 @@ footer .next:hover{
     transition: all 0.3s ease;
 }
 
+.results-container .final_score span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.final_score span p{
+    font-weight: 800;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
 .answer-list .answer.correct{
 background: #5CEF72 ;
 color: #fff;
