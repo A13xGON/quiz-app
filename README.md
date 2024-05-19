@@ -24,10 +24,10 @@ When the quiz starts, you have a timer that starts and a question appears. You h
 answer is correct or not. Hit the next button to continue to the following questions until you complete the quiz. At the end you get your score and the options
 to end the quiz, or restart and play again.
 
-![alt text](/quiz-app/images/start_screen.png)
-![alt text](/quiz-app/images/info_screen.png)
-![alt text](/quiz-app/images/demo.png)
-![alt text](/quiz-app/images/results_screen.png)
+![start screen](/images/start_screen.png)
+![info screen](/images/info_screen.png)
+![demo](/images/demo.png)
+![results screen](/images/results_screen.png)
 
 
 ## Credits
